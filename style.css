@@ -1,0 +1,126 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ html{
+    font-size: 62.5%;
+    /* normaly font size: is 100% i.e 1remp 16px */
+    /* but her we have given 62.5% wich is 1rem=10px */
+     
+} 
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-color:aquamarine;
+    display: grid;
+    place-items: center;
+}
+
+.main-continer{
+    width: 80rem;
+    /* height: 40rem;  do not try to give height as its height will not change later when you try to inside anither div inside it  */
+    background-color:aliceblue ;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 3rem 8rem;
+    /* text-align: center; */
+}
+
+#questions {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: black;
+    margin: 2rem 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+
+
+li {
+    letter-spacing: 0.1rem;
+    /* word-spacing: 0.5rem; */
+    color: black;
+    /* margin: 2rem 0 0.5rem 0; */
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top:1.5rem;
+    list-style:  none;
+    
+}
+
+.submit,#btn{
+    width: 15rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    background-color: coral;
+    text-transform: uppercase;
+    padding: 0.5rem 3rem;
+    /* outline: none; */
+    /* to centre the btn */
+    display: block;
+    margin: auto;
+    border: none;
+    margin-top:2.5rem ;
+    text-align: center;
+} 
+
+input{
+    cursor: pointer;
+}
+
+
+
+.submit:hover{
+    background-color: #74b9ff;
+    cursor: pointer;
+}
+
+#btn{
+    background: #00b894;
+    width: auto;
+}
+
+#btn:hover{
+    
+    background: #55efc4;
+    cursor: pointer;
+}
+
+#showscore{
+    background-color: #def6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+
+}
+
+.scoreArea{
+    /* don not show any content inside it */
+    display: none;
+}
+
+#showscore h3{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#showscore .submit{
+    margin-top: 2rem;
+    width: 16rem;
+    background-color:burlywood  ;
+    color: brown;
+}
+
+#showscore .submit:hover{
+    background-color:aqua;
+    color: black;
+}
